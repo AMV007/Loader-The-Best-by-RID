@@ -1,4 +1,5 @@
 ﻿#include "Utils.h"
+//Author of a RunPE func is ZeroMemory. Link: https://github.com/Zer0Mem0ry/RunPE/blob/master/RunPE.cpp
 char* Internet::GetFile(const const char* szUrl) {
 	HINTERNET hOpen = NULL;
 	HINTERNET hFile = NULL;
